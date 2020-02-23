@@ -1,8 +1,3 @@
----
-title: 'Testes e TDD com ReactJS'
-disqus: hackmd
----
-
 Testes e TDD com React
 ===
 ![downloads](https://img.shields.io/github/downloads/atom/atom/total.svg)
