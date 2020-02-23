@@ -15,14 +15,14 @@ Um teste unitário basicamente é o teste da menor parte testável de um program
 
 **Exemplo:**
 Se tivessemos uma função que soma a + b, por exemplo:
-``` jsx=
+``` javascript
  function soma(a, b){
      return a + b;
 }
 ```
 Poderiamos escrever um teste para checar se o retorno da função está de acordo com o esperado.
 
-``` jsx=
+``` javascript
 const resultado = soma(1,2);
 
 test('adds 1 + 2 to equal 3', () => {
@@ -90,7 +90,7 @@ Referência - https://jestjs.io/docs/en/api
 #####  **Isolando Testes -** `test.only()`
 Ao adicionar o método `.only()` no teste, é possível **isolá-lo**, para que apenas ele seja executado.
 **Exemplo:**
-```jsx=
+```javascript
     test.only('it is raining', () => {
       expect(inchesOfRain()).toBeGreaterThan(0);
     });
@@ -105,7 +105,7 @@ Referência - https://jestjs.io/docs/en/api#testonlyname-fn-timeout
 ##### **Pulando Testes -** `test.skip()`
 Se quisermos ignorar um teste que está falhando e que não podemos concertá-lo na hora, podemos usar o método `.skip()` para ignorar o teste.
 **Exemplo:**
-```jsx=
+```javascript
     test('it is raining', () => {
       expect(inchesOfRain()).toBeGreaterThan(0);
     });
