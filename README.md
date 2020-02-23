@@ -1,6 +1,3 @@
----
-title: 'Testes e TDD com ReactJS'
----
 
 Testes em ReactJS
 ===
