@@ -2,7 +2,7 @@ import React from 'react';
 import { mount } from 'enzyme';
 import App from './App';
 
-test('renders learn react link', () => {
+test('renders App component', () => {
   const wrapper = mount(<App />);
-  expect(wrapper.find('.hello').text()).toContain('Hellow world!');
+  expect(wrapper.find('.restaurant-list').text()).toContain('Olá, Usuário');
 });
