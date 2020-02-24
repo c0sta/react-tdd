@@ -5,8 +5,7 @@
     "commonjs": true,
     "es6": true,
     "jest": true,
-    "node": true,
-    "jsx": true
+    "node": true
   },
   "rules": {
     "jsx-a11y/href-no-hash": ["off"],
