@@ -3,13 +3,11 @@
 
 TDD + ReactJS
 ===
-
 # Table of Contents
 [TOC]
 
 # Overview
-Resumão do que consegui encontrar até agora sobre testes com React, peguei bastante coisa de artigos e cursos da internet, os artigos e cursos do youtube estão tudo na bibliografia pra gente consultar caso a gente precise. 
-Tentei focar mais nos Testes Unitários, mostrando alguns métodos mais usados das ferramenta que possivelmente vamos usar, tentei pegar o máximo de exemplos com React e Hooks que achei, caso encontrem mais só ir adicionando aqui pra gente poder consultar.
+Resumão do que consegui encontrar até agora sobre testes com React, peguei bastante coisa de artigos e cursos da internet, os artigos e cursos do youtube estão tudo na bibliografia pra consulta. 
 
 # Testes em ReactJS
 Realizamos testes para nos certificar que nossa aplicação vai funcionar como esperamos para nosso **usuário final**. Fazer os testes vai deixar nosso sistema bem mais robusto mas em compensação será menos propício a ter bugs e erros.
@@ -283,22 +281,9 @@ const { getByTestId } = render(<div data-testid="container-modal">...</div>)
 ### **CheatSheet Completa**
 ![CheatSheet](https://i.imgur.com/3BrquRY.jpg)
 
-
 ### Referencias
 1. [React Book - React Testing Library](https://softchris.github.io/books/react/react-testing-library/) 
 2. [Docs](https://testing-library.com/)
-
----
-
-## Axios Mock
-
-* Função do Axios Mock
-* Config?
-* Como criar Mocks simples com ele
-
-
----
-
 
 # Exemplos
 To salvando aqui alguns exemplos que podem ser úteis pra gente, alguns links são tutoriais, outros vídeos e outros repositórios:
@@ -312,6 +297,7 @@ To salvando aqui alguns exemplos que podem ser úteis pra gente, alguns links s�
 Nesse link tem uns tutoriais usando useState/useEffect/useContext/useReducer, ele explica bem  a fundamentação teórica de testes também e fala sobre algumas ferramentas, como o Enzyme e React-Test-Renderer. Caso queiram pular tudo isso é só pular pro tópico React-testing-library que vai ter os exemplos com os Hooks.
 
 :link: - [How to Test React Components: the Complete Guide](https://www.freecodecamp.org/news/testing-react-hooks/)
+
 # Bibliografia
 
 1. [Entenda de uma vez por todas o que são testes unitários, para que servem e como fazê-los](https://medium.com/@dayvsonlima/entenda-de-uma-vez-por-todas-o-que-s%C3%A3o-testes-unit%C3%A1rios-para-que-servem-e-como-faz%C3%AA-los-2a6f645bab3) 
@@ -322,9 +308,3 @@ Nesse link tem uns tutoriais usando useState/useEffect/useContext/useReducer, el
 6. [Unit Testing React Components](https://medium.com/javascript-scene/unit-testing-react-components-aeda9a44aae2)
 7. [Testing React Hooks](https://www.freecodecamp.org/news/testing-react-hooks/)
 9. [Tested React: Build and Test a Form using React Context](https://medium.com/front-end-weekly/tested-react-build-and-test-a-form-using-react-context-81870af6a9ac)
-
-# Appendix and FAQ
-
-:::info
-**Find this document incomplete?** Leave a comment!
-:::
